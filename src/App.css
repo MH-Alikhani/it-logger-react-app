@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+/* import font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+html {
+  font-size: 10px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: #515e63;
+}
+main {
+  /* position: relative; */
+  margin-top: 10vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  height: 80vh;
+}
+
+.add-btn {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  right: 30px;
+  bottom: 50px;
+}
+.add-log-btn,
+.add-tech-btn,
+.tech-list-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.add-log-btn {
+  width: 65px;
+  height: 65px;
+  background-color: #ed8e7c;
+}
+.add-tech-btn,
+.tech-list-btn {
+  width: 55px;
+  height: 55px;
+  display: none;
+}
+.add-tech-btn {
+  background: #cdf3a2;
+  margin: 10px 0;
+}
+.tech-list-btn {
+  background: #93d9a3;
+}
+.add-btn:hover .tech-list-btn,
+.add-btn:hover .add-tech-btn {
+  display: flex;
+}

@@ -1,0 +1,67 @@
+.set-tech-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  color: #000;
+
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.set-text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 20px 50px 20px;
+  width: 70%;
+  height: 70%;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.set-text-box > h2 {
+  font-size: 4rem;
+  margin-bottom: 40px;
+}
+.first-name-input,
+.last-name-input {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.first-name-input > label,
+.last-name-input > label {
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+#add-first-name-tech,
+#add-last-name-tech {
+  padding: 0 10px;
+  color: #fff;
+  font-size: 2rem;
+  width: 80%;
+  height: 40px;
+  background: rgb(128, 128, 128);
+  border-radius: 0 10px 10px 0;
+}
+#add-first-name-tech::placeholder,
+#add-last-name-tech::placeholder {
+  color: #fff;
+  opacity: 0.5;
+}
+
+.set-tech-btn {
+  border-radius: 10px;
+  color: #fff;
+  font-size: 2.5rem;
+  cursor: pointer;
+  width: 90%;
+  height: 40px;
+  background-color: rgb(83, 82, 82);
+}

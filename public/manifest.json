@@ -1,0 +1,8 @@
+{
+  "short_name": "IT Logger",
+  "name": "IT Logger | manage your works",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

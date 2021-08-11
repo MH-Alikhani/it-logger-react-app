@@ -1,0 +1,13 @@
+export const SET_LOG = "SET_LOG";
+export const GET_LOGS = "GET_LOGS";
+export const SET_TECH = "SET_TECH";
+export const EDIT_LOG = "EDIT_LOG";
+export const DELETE_LOG = "DELETE_LOG";
+export const SET_LOADING = "SET_LOADING";
+export const SEARCH_LOGS = "SEARCH_LOGS";
+export const GET_SINGLE_LOG = "GET_SINGLE_LOG";
+export const SHOW_TECH_LIST = "SHOW_TECH_LIST";
+export const GET_TECHNICIANS = "GET_TECHNICIANS";
+export const ACTIVE_EDIT_LOG = "ACTIVE_EDIT_LOG";
+export const ACTIVE_ADD_LOG_BTN = "ACTIVE_ADD_LOG_BTN";
+export const ACTIVE_SET_TECH_BTN = "ACTIVE_SET_TECH_BTN";

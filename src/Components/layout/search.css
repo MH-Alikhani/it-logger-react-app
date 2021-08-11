@@ -1,0 +1,44 @@
+.search-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 10vh;
+  padding-left: 0.5rem;
+  background-color: #57837b;
+}
+.search-input {
+  width: 93%;
+  height: 100%;
+  color: #fff;
+  font-size: 2rem;
+  background: none;
+}
+.search-input::placeholder {
+  opacity: 0.5;
+  color: #fff;
+}
+.search-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 5%;
+  height: 100%;
+  color: #fff;
+  font-size: 3rem;
+  cursor: pointer;
+  background: none;
+}
+.back-to-logs-btn {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 3rem;
+  cursor: pointer;
+  background: none;
+}

@@ -1,0 +1,61 @@
+.logs-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 80%;
+  min-height: 30%;
+  padding: 10px;
+  box-shadow: 0 0 5px white;
+  text-align: center;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.2);
+}
+.logs-wrapper > h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+  letter-spacing: 0.4rem;
+}
+.no-logs {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+.logs-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 50px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+  background: rgba(0, 0, 0, 0.2);
+}
+.loading {
+  font-size: 5rem;
+}
+.logs-box > h2 {
+  font-size: 2.5rem;
+}
+.show-log {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  font-size: 2rem;
+}
+.attention {
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
+}
+
+.log-option {
+  display: flex;
+  justify-content: space-between;
+  width: 5%;
+}
+.log-option > i {
+  cursor: pointer;
+}
+.log-option > i:hover {
+  color: rgba(0, 255, 255);
+}
